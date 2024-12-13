@@ -1,0 +1,14 @@
+#listeChantiers .dashicons {
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+    vertical-align: text-bottom;
+}
+
+#listeChantiers li {border-bottom:1px solid #ccc; padding-bottom:8px;}
+
+#listeChantiers li > ul {text-align:right; padding-top:20px;}
+
+#listeChantiers li > ul > li {border-bottom:none;}
+
+#listeChantiers li > ul > li.past {opacity:0.5;}
